@@ -33,8 +33,15 @@ This bundle contains generators for creating:
 	rl-mediator SomeMediator
 	rl-command SomeCommand
 	
+## Available libraries
+
+	library :robotlegs, :swc		# (default) includes swc, docs
+	
+	library :robotlegs, :src		# includes swc, docs, src
+	
 ##TODO
 
+Generators
 * Event
 * VO
 * DTO

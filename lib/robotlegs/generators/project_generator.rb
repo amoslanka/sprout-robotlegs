@@ -1,3 +1,5 @@
+require 'flashsdk'
+
 module Robotlegs
   class ProjectGenerator < FlashSDK::ProjectGenerator
     
